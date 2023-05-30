@@ -6,13 +6,18 @@
 }
 
 .header-section{
-
+     width: 100%;
     padding-top:20px ;
     padding-bottom:20px ;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
     border-color: #ECEDF2;
-    box-shadow: 0px 0px 5px 0px;
+    box-shadow: 0px 0px 20px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    
 
 }
 
@@ -54,3 +59,275 @@ padding-left: 30px;
     border-style: none;
     color: white;
 }
+
+
+.section2{
+    display: flex;
+    margin-top: 200px;
+
+}
+
+.section2-heading-text{
+    width: 50%;
+    padding-left: 60px;
+}
+
+.section2-heading-text h2{
+    color: black;
+    font-size: 58px;
+    font-weight: 700px;
+    line-height: 66px;
+}
+
+.section2 span{
+    color: blue;
+}
+
+.section2 p{
+    margin-top: 20px;
+    width: 67%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section2-img{
+    width: 50%;
+    padding-left: 70px;
+}
+
+.section2 button{
+    margin-top: 30px;
+    padding: 15px;
+    width: 33%;
+    border-color: rgb(45, 45, 245);
+    border-width: 1px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.section2 button :hover{
+    background-color: blue;
+}
+
+.section-3{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.section3-heading{
+  
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 49%;
+
+}
+
+.section-3 h2{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.section3-para1 p{
+    font-size: 20px;
+    margin-bottom: 40px ;
+
+}
+
+.section3-para2 p{
+    font-size: 20px;
+    margin-bottom: 40px ;
+}
+
+.section3-buttons{
+    display: flex;
+    
+}
+
+
+/* form section */
+
+.formsection{
+    display: inline-block;
+    width: 100%;
+    margin-top: 150px;
+    background-image: url("https://techpaathshala.com/wp-content/uploads/2022/11/background101.svg");
+    background-repeat: no-repeat;
+    background-position:top right ;
+
+}
+
+.img1{
+   padding-left: 100px;
+    display: inline-block;
+
+}
+
+.form1{
+    display: inline-block;
+    float: right;
+    font-size: 10px;
+    padding-right: 150px;
+    padding-top: 25px;
+  
+
+}
+
+.formcontent{
+font-size: 20px;
+padding-left: 50px;
+
+}
+
+.form2{
+    margin:50px;
+    margin-top: 50px;
+}
+
+ .mainheading{
+    font-size: 42px;
+    padding-left: 94px;
+}
+
+.input{
+border-color: rgb(231, 235, 231);
+border-radius:7px;
+margin-top: 10px;
+margin-bottom: 20px;
+height: 35px;
+width: 375px;
+border-style: solid;
+
+
+}
+
+.btn1{
+    padding: 15px;
+    width: 45%;
+    font-size: 16px;
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #2B7DDD;
+    color: white;
+}
+
+
+/*footer*/
+
+
+.footer{
+    
+    margin-bottom: 40px;
+   
+    
+    
+}
+
+
+.footer-section{
+    display: inline-block;
+    
+    width: 50%;
+}
+
+
+
+.techpaathshaala-logo{
+    padding-left: 32px;
+    margin-top: 61px;
+    height: 70px;
+}
+
+
+.techpaathshaala-social{
+    padding-left: 30px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.techpaathshaala-social a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+.techpaathshaala-social  :hover{
+    color: #2B7DDD;
+}
+
+.techpaathshaala-social-icons{
+
+   display: inline-block;
+   float: right;
+    width: 50%;
+    
+
+}
+
+.techpaathshaala-social-icons li{
+
+    margin-right: 25px;
+   
+    list-style-type: none;
+    
+}
+
+.techpaathshaala-social-icons ul li{
+
+    display: inline-block;
+ 
+    list-style-type: none;
+    
+}
+
+.techpaathshaala-social-heading{
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+
+.end-section{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    font-size: 15px;
+
+}
+
+.chat-button{
+    
+    align-items: center;
+    display: flex;
+    background-color: rgb(61, 192, 10);
+    padding: 10px;
+    border-style: none;
+    border-radius: 20px;
+    width: 180px;
+   
+   
+    
+
+}
+
+.chat-button a{
+    text-decoration: none;
+    color: white;
+    padding-left: 8px;
+}
+
+.chat-button1{
+    display: inline-block;
+    float: right;
+    margin-bottom: 20px;
+    position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+  
